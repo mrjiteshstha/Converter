@@ -1,0 +1,15 @@
+{
+  "name": "fileswap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Convert HTML, Markdown, text, tables and images between formats. HTML to PDF is rendered in real headless Chromium.",
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^138.0.0",
+    "puppeteer-core": "^24.15.0"
+  }
+}
